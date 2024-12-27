@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pytorch-pyinstaller"
+version = "0.1.0"
+description = ""
+authors = ["sonsj97 <sonsj97@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+timm = "^1.0.12"
+torchaudio = "^2.5.1"
+cx-freeze = "^7.2.7"
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^6.11.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
